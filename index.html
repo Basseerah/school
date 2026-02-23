@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upstream School System | Abbottabad</title>
+    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="min-h-screen bg-slate-50">
+            <div class="fixed top-0 left-0 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 z-50 transition-all"
+                style="width: 0%;"></div>
+            <header
+                class="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl z-40 transition-all duration-300 rounded-2xl bg-white/95 shadow-xl">
+                <div class="flex items-center justify-between px-6 py-3">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-700 to-blue-500 flex items-center justify-center text-white font-bold text-sm">
+                            USS</div>
+                        <div>
+                            <div class="font-semibold text-sm">Upstream School System</div>
+                            <div class="text-xs text-gray-500">Abbottabad | Oxford Affiliated</div>
+                        </div>
+                    </div>
+                    <nav class="hidden lg:flex items-center gap-6 text-sm">
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">Home</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">about</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">academics</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">leadership</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">faculty</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">gallery</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">Reviews</button>
+                        <button
+                            class="text-gray-600 hover:text-blue-600 font-medium capitalize transition-colors">contact</button>
+                    </nav>
+                    <button id="btn-apply-now"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:opacity-90 rounded-full">Apply
+                        Now</button>
+                </div>
+            </header>
+
+            <section id="hero"
+                class="relative pt-24 pb-20 lg:pt-28 lg:pb-32 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-950 text-white overflow-hidden">
+                <div
+                    class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/4">
+                </div>
+                <div
+                    class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-cyan-500/20 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/4">
+                </div>
+                <div class="container mx-auto px-6 relative z-10">
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start lg:items-center">
+
+
+                        <div>
+                            <div class="flex flex-col items-start gap-4 mb-8">
+                                <div
+                                    class="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-500/10 px-4 py-1.5 text-xs font-medium text-blue-200">
+                                    <span class="relative flex h-2 w-2">
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                        <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                                    </span>
+                                    Abbottabad's First Oxford‑Affiliated Institution
+                                </div>
+                                <div
+                                    class="bg-gradient-to-r from-amber-500/20 to-yellow-500/20 border border-amber-400/30 rounded-2xl p-4 w-full sm:w-auto">
+                                    <div class="flex items-center gap-4">
+                                        <div class="p-2 bg-amber-500/20 rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-6 h-6 text-amber-400">
+                                                <path
+                                                    d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                                </path>
+                                                <circle cx="12" cy="8" r="6"></circle>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p class="font-bold text-amber-300 text-sm">🎓 First in Abbottabad!</p>
+                                            <p class="text-xs text-amber-100/80">Oxford Qualifications equivalent to O
+                                                &amp; A Level</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h1 class="text-4xl lg:text-5xl font-bold mb-4 leading-tight">Empowering Minds Through <span
+                                    class="text-cyan-400">Oxford Excellence</span></h1>
+                            <p class="text-lg text-gray-300 mb-6">At <strong>Upstream School System</strong> in
+                                Abbottabad, we combine strong academics, character building, and 21st‑century skills to
+                                prepare students to lead with confidence and integrity.</p>
+                            <div class="flex flex-wrap gap-4 mb-10">
+                                <button id="btn-start-admission"
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold transition-all h-12 px-8 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg shadow-blue-900/40">Start
+                                    Admission</button>
+                                <button id="btn-learn-more"
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all h-12 px-8 border border-white/40 bg-white/10 hover:bg-white/20 text-white rounded-full backdrop-blur-sm">Learn
+                                    More</button>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
+                                <div
+                                    class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-blue-500/30 transition-all group">
+                                    <div class="text-cyan-400 font-bold text-sm mb-1 group-hover:text-cyan-300">
+                                        Playgroup – Matric</div>
+                                    <div class="text-gray-400 text-xs leading-relaxed">Complete academic journey
+                                        from
+                                        foundation to graduation.</div>
+                                </div>
+                                <div
+                                    class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-blue-500/30 transition-all group">
+                                    <div class="text-cyan-400 font-bold text-sm mb-1 group-hover:text-cyan-300">
+                                        Modern
+                                        Facilities</div>
+                                    <div class="text-gray-400 text-xs leading-relaxed">State-of-the-art STEM labs &
+                                        digital literacy centers.</div>
+                                </div>
+                                <div
+                                    class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-blue-500/30 transition-all group">
+                                    <div class="text-cyan-400 font-bold text-sm mb-1 group-hover:text-cyan-300">
+                                        Values-Based</div>
+                                    <div class="text-gray-400 text-xs leading-relaxed">Integrated Islamic & moral
+                                        education for character growth.</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div>
+                            <div class="rounded-xl border text-card-foreground bg-white/95 shadow-2xl">
+                                <div class="flex flex-col space-y-1.5 p-6">
+                                    <div class="font-semibold tracking-tight text-xl">Why parents choose Upstream?</div>
+                                </div>
+                                <div class="p-6 pt-0">
+                                    <ul class="space-y-2 text-gray-600">
+                                        <li class="flex items-start gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5">
+                                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                                <path d="m9 11 3 3L22 4"></path>
+                                            </svg>
+                                            <span>Qualified, caring teachers</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5">
+                                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                                <path d="m9 11 3 3L22 4"></path>
+                                            </svg>
+                                            <span>Small class sizes for focused attention</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5">
+                                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                                <path d="m9 11 3 3L22 4"></path>
+                                            </svg>
+                                            <span>Secure and student-friendly campus</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5">
+                                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                                <path d="m9 11 3 3L22 4"></path>
+                                            </svg>
+                                            <span>Active communication with parents</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5">
+                                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                                <path d="m9 11 3 3L22 4"></path>
+                                            </svg>
+                                            <span>Oxford qualifications (O &amp; A Level equivalent) – First in
+                                                Abbottabad!</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-12 bg-gradient-to-r from-blue-700 to-blue-900 text-white">
+                <div class="container mx-auto px-6">
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
+                        <div class="flex items-center gap-4">
+                            <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-8 h-8 text-amber-400">
+                                    <path
+                                        d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                    </path>
+                                    <circle cx="12" cy="8" r="6"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold">Oxford Qualifications Available</h3>
+                                <p class="text-blue-200">Equivalent to O Level &amp; A Level – First School in
+                                    Abbottabad to Introduce This!</p>
+                            </div>
+                        </div>
+                        <button id="btn-learn-programs"
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm shadow h-9 py-2 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full px-8 transition-colors">Learn
+                            About Our Programs</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="py-20 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">About Upstream School System</h2>
+                        <p class="text-gray-600">Located in the scenic city of Abbottabad, <strong>Upstream School
+                                System</strong> is a forward‑looking institution dedicated to helping every child
+                            discover their potential and grow in knowledge, faith, and service.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-8 h-8 text-blue-600 mb-2">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <div class="font-semibold leading-none tracking-tight">Our Vision</div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <p class="text-gray-600">To develop confident, curious, and compassionate learners who
+                                    are ready to succeed in Pakistan and beyond while remaining rooted in strong moral
+                                    values.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-8 h-8 text-blue-600 mb-2">
+                                    <path d="M12 7v14"></path>
+                                    <path
+                                        d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                                    </path>
+                                </svg>
+                                <div class="font-semibold leading-none tracking-tight">Our Mission</div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <p class="text-gray-600">We provide a safe, engaging and inclusive learning environment
+                                    with a balanced focus on academics, Islamic education, character building, and
+                                    co‑curricular activities.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-8 h-8 text-blue-600 mb-2">
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                    </path>
+                                </svg>
+                                <div class="font-semibold leading-none tracking-tight">Core Values</div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Integrity &amp; honesty</li>
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Respect &amp; responsibility</li>
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Excellence in learning</li>
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Service to community</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="academics" class="py-20 bg-slate-50">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">Academics</h2>
+                        <p class="text-gray-600">Upstream School System is <strong class="text-blue-600">Abbottabad's
+                                first school</strong> to offer Oxford qualifications equivalent to O Level and A Level,
+                            along with our Cambridge-affiliated programmes.</p>
+                    </div>
+                    <div
+                        class="rounded-xl border text-card-foreground shadow bg-gradient-to-r from-amber-50 to-yellow-50 border-amber-200 mb-8">
+                        <div class="p-6">
+                            <div class="flex flex-col md:flex-row items-center gap-6">
+                                <div
+                                    class="w-20 h-20 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="w-10 h-10 text-white">
+                                        <path
+                                            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                        </path>
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-amber-800 mb-2">🏆 First in Abbottabad: Oxford
+                                        Qualifications</h3>
+                                    <p class="text-amber-700">We are proud to be the <strong>first school in
+                                            Abbottabad</strong> to introduce Oxford qualifications that are equivalent
+                                        to internationally recognized O Level and A Level certifications. This gives our
+                                        students a competitive edge for admissions to top universities worldwide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div
+                                    class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold bg-amber-100 text-amber-800 w-fit">
+                                    Oxford Affiliated</div>
+                                <div class="font-semibold leading-none tracking-tight mt-2">Oxford-Linked Early Years
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <p class="text-gray-600">Our Early Years section (Playgroup to Prep) follows a
+                                    specialized Oxford-linked curriculum focusing on literacy, numeracy, and character
+                                    building.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div
+                                    class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold bg-blue-100 text-blue-800 w-fit">
+                                    Cambridge Affiliated</div>
+                                <div class="font-semibold leading-none tracking-tight mt-2">Cambridge O Levels (IGCSE)
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <p class="text-gray-600">Our O Level stream is fully affiliated with Cambridge
+                                    University, offering students a globally recognized qualification.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow hover:-translate-y-2 transition-transform duration-300 hover:shadow-xl">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div
+                                    class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold bg-blue-100 text-blue-800 w-fit">
+                                    Cambridge Affiliated</div>
+                                <div class="font-semibold leading-none tracking-tight mt-2">Cambridge A Level</div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <p class="text-gray-600">The A Level programme is affiliated with Cambridge University,
+                                    preparing students for admission to top-tier universities worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="leadership" class="py-20 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">Message from the Principal</h2>
+                        <p class="text-gray-600">A few words from the Principal of Upstream School System in Abbottabad,
+                            sharing our commitment to academic excellence, character building and an international
+                            outlook.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="rounded-xl border bg-card text-card-foreground shadow overflow-hidden">
+                            <div class="h-72 overflow-hidden">
+                                <img src="assets/images/principal.jpg" alt="Attique Khan - Principal"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">Attique Khan</h3>
+                                <p class="text-gray-500">Principal &amp; Mathematics Specialist</p>
+                            </div>
+                        </div>
+                        <div class="rounded-xl border bg-card text-card-foreground shadow md:col-span-2">
+                            <div class="p-8">
+                                <p class="text-gray-700 text-lg leading-relaxed">"At Upstream School System, we take
+                                    pride in being the <strong>first Oxford-affiliated school in Abbottabad</strong> for
+                                    our main schooling system, while our O and A Level programmes are integrated with
+                                    <strong>Cambridge University</strong>. We are also proud to be the <strong>first
+                                        school in Abbottabad to offer Oxford qualifications equivalent to O Level and A
+                                        Level</strong>, giving our students internationally recognized certifications.
+                                    We are committed to providing our students with a world-class education that
+                                    balances academic excellence with strong moral values."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faculty" class="py-20 bg-slate-50">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">Our Top-Notch Faculty</h2>
+                        <p class="text-gray-600">Guided by some of the most experienced and dedicated educators in
+                            Abbottabad.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow text-center hover:-translate-y-2 transition-transform duration-300">
+                            <div class="p-6 pt-8">
+                                <div
+                                    class="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-white shadow-lg">
+                                    <img src="assets/images/sirtahirkhan.jpg" alt="Sir Attique"
+                                        class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="font-bold text-lg">Sir Tahir Khan</h3>
+                                <p class="text-blue-600 font-medium">Business Studies</p>
+                                <p class="text-gray-500 text-sm mt-2">Leading with vision and academic excellence.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow text-center hover:-translate-y-2 transition-transform duration-300">
+                            <div class="p-6 pt-8">
+                                <div
+                                    class="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-white shadow-lg">
+                                    <img src="assets/images/sirnoman.jpg" alt="Sir Noman"
+                                        class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="font-bold text-lg">Sir Noman</h3>
+                                <p class="text-blue-600 font-medium">Physics Specialist</p>
+                                <p class="text-gray-500 text-sm mt-2">Expert guide in the world of Physics.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-xl border bg-card text-card-foreground shadow text-center hover:-translate-y-2 transition-transform duration-300">
+                            <div class="p-6 pt-8">
+                                <div
+                                    class="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-white shadow-lg">
+                                    <img src="assets/images/siranjum.jpg" alt="Sir Anjum"
+                                        class="w-full h-full object-cover">
+                                </div>
+                                <h3 class="font-bold text-lg">Sir Anjum</h3>
+                                <p class="text-blue-600 font-medium">Biology Specialist</p>
+                                <p class="text-gray-500 text-sm mt-2">Cultivating knowledge in life sciences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="admissions" class="py-20 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">Admissions</h2>
+                        <p class="text-gray-600">Admissions are open for the new academic session. Limited seats are
+                            available in each class to maintain small class sizes and individual attention.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="rounded-xl border bg-card text-card-foreground shadow">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="font-semibold leading-none tracking-tight">Admission Process</div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <ol class="space-y-3">
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center flex-shrink-0">1</span>
+                                        <span class="text-gray-600">Visit the school office to collect the admission
+                                            form.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center flex-shrink-0">2</span>
+                                        <span class="text-gray-600">Submit the completed form with required
+                                            documents.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center flex-shrink-0">3</span>
+                                        <span class="text-gray-600">Attend the assessment/interaction session.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center flex-shrink-0">4</span>
+                                        <span class="text-gray-600">Confirm admission by submitting the fee
+                                            challan.</span>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="rounded-xl border bg-card text-card-foreground shadow">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="font-semibold leading-none tracking-tight">Required Documents</div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Copy of birth certificate / B‑Form</li>
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>CNIC copy of parent / guardian</li>
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Recent passport‑size photographs</li>
+                                    <li class="flex items-center gap-2 text-gray-600"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="w-4 h-4 text-blue-600">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>Previous school record (if applicable)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rounded-xl border shadow bg-gradient-to-br from-blue-700 to-blue-900 text-white">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="font-semibold leading-none tracking-tight text-white">Ask about admissions
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0">
+                                <p class="text-blue-100 mb-4">For fee structure, transport details, and available
+                                    discounts for siblings, please contact our admissions office.</p>
+                                <button id="btn-contact-admissions"
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium shadow h-9 px-4 py-2 w-full bg-white text-blue-700 hover:bg-blue-50 transition-colors">Contact
+                                    Admissions</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery" class="py-20 bg-slate-50">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">Campus &amp; Student Life Gallery</h2>
+                        <p class="text-gray-600">A glimpse into life at Upstream School System.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/usscover.webp" alt="Main Campus Entry"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Main Campus Entry</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/sports.jpg" alt="Modern STEM Facilities"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Modern STEM Facilities</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/naat.webp" alt="Oxford Resource Center"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Oxford Resource Center</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/playground.jpg" alt="Interactive Learning"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Interactive Learning</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/olympiad.jpg" alt="Digital Literacy Lab"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Digital Literacy Lab</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/international.jpg" alt="Extracurricular Activities"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Extracurricular Activities</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/in.jpg" alt="Science Laboratory" class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Science Laboratory</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/get.jpg" alt="Sports Day Highlights"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Sports Day Highlights</span>
+                            </div>
+                        </div>
+                        <div
+                            class="relative group rounded-xl overflow-hidden h-56 hover:scale-105 transition-transform duration-300">
+                            <img src="assets/images/cocurriculer.webp" alt="Library &amp; Reading Room"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white font-medium">Library &amp; Reading Room</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reviews" class="py-20 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="max-w-2xl mb-12">
+                        <h2 class="text-3xl font-bold mb-4">What Our Students Say</h2>
+                        <p class="text-gray-600">Hear from our alumni about their experience at Upstream School System.
+                        </p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="rounded-xl border bg-card text-card-foreground shadow">
+                            <div class="p-6 pt-6">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-100">
+                                        <img src="assets/images/sajjad.jpeg" alt="Sajjad Husain"
+                                            class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">Sajjad Husain</h3>
+                                        <p class="text-gray-500 text-sm">Ex-Student (Passed A-Levels)</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 italic">"The Oxford-affiliated curriculum and A-Level support at
+                                    USS changed the way I learn. The teachers, especially Sir Attique, make complex
+                                    concepts so easy to understand, helping me secure top grades in my A-Levels."</p>
+                            </div>
+                        </div>
+                        <div class="rounded-xl border bg-card text-card-foreground shadow">
+                            <div class="p-6 pt-6">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-100">
+                                        <img src="assets/images/maryamraza'.jpg" alt="Maryam Raza"
+                                            class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">Maryam Raza</h3>
+                                        <p class="text-gray-500 text-sm">Ex-Student (Passed A-Levels)</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 italic">"I love the supportive environment at Upstream. Being
+                                    the first Oxford-affiliated school in Abbottabad to offer A-Levels, it gave us a
+                                    competitive edge that helped me after graduation and for my university
+                                    applications."</p>
+                            </div>
+                        </div>
+                        <div class="rounded-xl border bg-card text-card-foreground shadow">
+                            <div class="p-6 pt-6">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-100">
+                                        <img src="assets/images/waji.webp" alt="waji"
+                                            class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold">Waji Ullah Qayum</h3>
+                                        <p class="text-gray-500 text-sm">Ex-Student (Passed A-Levels)</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 italic">"The facilities and the quality of teachers like Sir
+                                    Noman for Physics are top-notch. I felt confident and prepared throughout my A-Level
+                                    examinations at USS and got accepted into my dream university."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="py-20 bg-slate-50">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+                        <p class="text-gray-600 max-w-xl mx-auto">We would be happy to meet you and show you
+                            more about Upstream School System. Visit us or reach out anytime.</p>
+                    </div>
+                    <div class="flex flex-wrap justify-center gap-6 max-w-3xl mx-auto">
+                        <!-- Address -->
+                        <div
+                            class="flex items-start gap-4 bg-white rounded-2xl shadow p-6 w-full sm:w-auto sm:flex-1 min-w-[220px]">
+                            <div
+                                class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="text-blue-600">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                    </path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 mb-1">Address</p>
+                                <p class="text-gray-600 text-sm">Upstream School System<br>Abbottabad, Khyber
+                                    Pakhtunkhwa<br>Pakistan</p>
+                            </div>
+                        </div>
+                        <!-- Phone -->
+                        <div
+                            class="flex items-start gap-4 bg-white rounded-2xl shadow p-6 w-full sm:w-auto sm:flex-1 min-w-[220px]">
+                            <div
+                                class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="text-blue-600">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 mb-1">Phone</p>
+                                <a href="tel:0992403293" class="text-blue-600 text-sm hover:underline">0992‑403293</a>
+                                <p class="text-gray-500 text-xs mt-1">Mon – Sat, 8:00 am – 2:00 pm</p>
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div
+                            class="flex items-start gap-4 bg-white rounded-2xl shadow p-6 w-full sm:w-auto sm:flex-1 min-w-[220px]">
+                            <div
+                                class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="text-blue-600">
+                                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 mb-1">Email</p>
+                                <a href="mailto:ussschools@gmail.com"
+                                    class="text-blue-600 text-sm hover:underline">ussschools@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="bg-white border-t py-6">
+                <div
+                    class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
+                    <p>© 2026 Upstream School System, Abbottabad. All rights reserved.</p>
+                    <p class="text-gray-400">Excellence in Education</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
