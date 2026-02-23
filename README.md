@@ -8,88 +8,22 @@ A modern, responsive landing page for the Upstream School System — the first O
 
 ```
 ├── index.html          → Main website (all sections)
-├── contact.php         → Backend — processes contact form via PHPMailer
-├── config.php          → Gmail SMTP credentials (⚠️ keep private)
-├── composer.json       → PHP dependency manager config
-├── vendor/             → PHPMailer library (auto-generated after Step 2)
-├── .gitignore          → Protects config.php and vendor/ from Git
 ├── assets/
 │   ├── css/style.css   → All styles (TailwindCSS + custom)
-│   ├── js/script.js    → Smooth scroll, animations, AJAX form
+│   ├── js/script.js    → Smooth scroll, animations, and interactive elements
 │   └── images/         → All website photos
 └── README.md           → This file
 ```
 
 ---
 
-## 🚀 Setup Guide (Step by Step)
+## 🚀 Setup Guide
 
-### Step 1 — Install XAMPP
+This project is now **100% static HTML, CSS, and JS**. There are no backend dependencies, servers, or email configurations required.
 
-1. Download from **https://www.apachefriends.org**
-2. Install with defaults → it goes to `C:\xampp\`
-3. Open **XAMPP Control Panel** → Start **Apache**
-
----
-
-### Step 2 — Install PHPMailer via Composer
-
-1. Download **Composer** from **https://getcomposer.org/download/**
-2. Run the installer (it auto-detects PHP from XAMPP)
-3. Open **Command Prompt** and navigate to your project:
-   ```bash
-   cd "C:\xampp\htdocs\Excelerate Academy _ Base44_files"
-   ```
-4. Run:
-   ```bash
-   composer install
-   ```
-   This downloads PHPMailer into the `vendor/` folder automatically.
-
----
-
-### Step 3 — Configure Gmail
-
-1. Open **`config.php`** and fill in:
-   ```php
-   define('SMTP_USER', 'your_gmail@gmail.com');   // Your Gmail
-   define('SMTP_PASS', 'xxxx xxxx xxxx xxxx');    // Gmail App Password
-   define('MAIL_TO',   'admin@yourschool.com');   // Where to receive enquiries
-   ```
-
-2. **Getting a Gmail App Password** (required — normal password won't work):
-   - Go to → **https://myaccount.google.com/security**
-   - Enable **2-Step Verification** (if not already on)
-   - Go to → **https://myaccount.google.com/apppasswords**
-   - App name: `Upstream School` → Click **Create**
-   - Copy the 16-character password → paste into `config.php`
-
----
-
-### Step 4 — Copy Project to XAMPP
-
-Copy your entire project folder into:
-```
-C:\xampp\htdocs\Excelerate Academy _ Base44_files\
-```
-
----
-
-### Step 5 — Open in Browser
-
-```
-http://localhost/Excelerate Academy _ Base44_files/index.html
-```
-
-Fill in the contact form and click **Submit Enquiry** — you should receive an email! ✅
-
----
-
-## 🔐 Security Notes
-
-- **Never** push `config.php` to GitHub (it's in `.gitignore`)
-- **Never** share your Gmail App Password
-- The App Password only has access to send email — it's not your main Gmail password
+### How to use:
+1. Simply double-click on `index.html` to open it in any modern web browser (Chrome, Safari, Edge, Firefox).
+2. To edit the text or images, open `index.html` using any code editor (like VS Code or Notepad).
 
 ---
 
@@ -97,9 +31,18 @@ Fill in the contact form and click **Submit Enquiry** — you should receive an 
 
 | Feature | Details |
 |---------|---------|
-| Responsive Design | Works on mobile, tablet, desktop |
-| Smooth Scroll | All nav buttons scroll to sections |
-| Gallery | 3×3 grid with hover captions |
-| Reviews | A-Level alumni testimonials with animations |
-| Contact Form | PHPMailer + Gmail SMTP, AJAX (no page reload) |
-| Email Format | Beautiful HTML email with table layout |
+| Desktop-First Design | Layout scales seamlessly to mobile using a fixed `1024px` viewport for a premium desktop-like experience on smaller screens. |
+| Smooth Scroll | All navigation buttons smoothly scroll to their respective sections. |
+| Reveal Animations | Sections and review cards fade and slide up automatically as the user scrolls down the page. |
+| Navigation Highlighting | Active section links in the navigation bar highlight based on the current scroll position. |
+| Gallery | 3×3 image grid showcasing campus life with hover overlay captions. |
+| Reviews | Alumni testimonials with beautiful slide animations. |
+| Quick Contact | Clean, interactive contact section with direct links for calling (`tel:`) and emailing (`mailto:`). |
+
+---
+
+## 🎨 Design Technicalities
+
+- **Tailwind CSS**: The site leverages utility-class based styling via TailwindCSS.
+- **Fixed Viewport Scaling**: The mobile layout actively preserves the exact desktop layout (`width=1024, maximum-scale=3.0`), ensuring side-by-side elements remain perfectly positioned even on smaller phones.
+- **Micro-interactions**: Subtle hover states, animated badges, and gradients create a vibrant, engaging experience.
